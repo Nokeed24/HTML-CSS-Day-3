@@ -4,7 +4,10 @@ body {
   margin: 0px;
   height: 100vh
 }
-
+.main-page {
+  display: flex;
+  flex-direction: column;
+}
 .navbar {
   display: flex;
   justify-content: center;
@@ -12,17 +15,39 @@ body {
   width: 100vw;
   height: 8vh;
   background-color: black;
+  padding-top: 1vh;
+  z-index: 4;
 }
 
-.nav-scroll {
-  
+.navbar:hover {
+height: 35vh;
+transition: 0.5s;
 }
+
+.navbar:hover ~ .main-page{
+  height: 65vh;
+  transition: 0.7s;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 3;
+}
+/* .nav-scroll {
+  height: 0vh;
+  background: black;
+
+}
+
+.navbar-icon:hover {
+   .nav-scroll {
+
+
+} */
 
 .navbar-icon {
   width: 30px;
   height: 30px;
   background-color: white;
   z-index: 1;
+  align-self: flex-start;
 }
 
 .intro {
