@@ -1,21 +1,36 @@
 body {
   display: flex;
   flex-direction: column;
+  margin: 0px;
 }
 
 .header {
   display: flex;
-  justify-content: center;
   width: 100vw;
   height: 10vh;
+  background-color: black;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
 }
 
 .main-content {
   display: flex;
   flex-direction: row;
+  height: 70vh;
+  width: 96vw;
+  margin: 0 2vw 0 2vw;
 }
 
 .column {
   display: flex;
   border: 2px solid black;
+  overflow: hidden;
+  padding: 1vh 1vw;
+}
+
+.column p {
+  align-self: flex-end;
 }
