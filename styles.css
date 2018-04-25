@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 10vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  border: 2px solid black;
+}
