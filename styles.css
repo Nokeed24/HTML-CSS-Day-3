@@ -42,6 +42,56 @@ transition: 0.5s;
 
 } */
 
+button
+{
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px 24px;
+  width: 130px;
+  margin: 0px 5px;
+}
+
+.main-content-index {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  justify-content: center;
+}
+
+.main-content-index h1
+{
+  text-align: center;
+}
+
+.buttons-container
+{
+  display: block;
+  background-color: grey;
+  text-align: center;
+}
+
+.button1
+{
+  background-color: #f44336;
+}
+
+.button2
+{
+  background-color: #008CBA;
+}
+
+.button3
+{
+  background-color: #ffff00;
+}
+
+
 .navbar-icon {
   width: 30px;
   height: 30px;
